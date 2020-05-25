@@ -3,28 +3,7 @@ import styled, { createGlobalStyle } from 'styled-components'
 
 import Footer from './footer'
 import Header from './header'
-
-const GlobalStyle = createGlobalStyle`
-    html {
-        font-family: 'Roboto', sans-serif;
-        -ms-text-size-adjust: 100%;
-        -webkit-text-size-adjust: 100%;
-    }
-    body {
-        box-sizing: border-box;
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
-
-        padding: 0;
-        border: none;
-        margin: 0;
-        background-color: #011fa4;
-        color: white;
-
-        display: flex;
-        justify-content: center;
-    }
-`
+import '../styles/global.css'
 
 const Container = styled.div`
     height: 100vh;
@@ -46,16 +25,13 @@ const Content = styled.div`
 
 const Layout = (props) => {
     return (
-        <React.Fragment>
-            <GlobalStyle />
-            <Container>
-                <Header />
-                <Content>
-                    <div>{props.children}</div>
-                </Content>
-                <Footer />
-            </Container>
-        </React.Fragment>
+        <Container>
+            <Header />
+            <Content>
+                <div>{props.children}</div>
+            </Content>
+            <Footer />
+        </Container>
     )
 }
 
