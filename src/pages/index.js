@@ -13,7 +13,7 @@ const IndexPage = () => {
     return (
         <Layout>
             <P>Hi, my name is Bari</P>
-            <P>I'm a Product-Minded Software Engineer.</P>
+            <P>I'm a Product-Minded Software Engineer</P>
         </Layout>
     )
 }

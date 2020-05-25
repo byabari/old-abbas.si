@@ -15,7 +15,7 @@ const P = styled.div`
 
 const Email = styled.div`
     font-size: 2.2rem;
-    font-weight: 900;
+    font-weight: 700;
     padding: 30px 0;
 `
 

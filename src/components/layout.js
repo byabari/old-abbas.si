@@ -5,11 +5,15 @@ import Footer from './footer'
 import Header from './header'
 
 const GlobalStyle = createGlobalStyle`
+    html {
+        font-family: 'Inter', sans-serif;
+        -ms-text-size-adjust: 100%;
+        -webkit-text-size-adjust: 100%;
+    }
     body {
         box-sizing: border-box;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
-        font-family: 'Inter', sans-serif;
 
         padding: 0;
         border: none;
