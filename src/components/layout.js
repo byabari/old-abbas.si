@@ -5,14 +5,12 @@ import Footer from './footer'
 import Header from './header'
 
 const GlobalStyle = createGlobalStyle`
-    html {
+    body {
         box-sizing: border-box;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
         font-family: 'Inter', sans-serif;
-    }
-    
-    body {
+
         padding: 0;
         border: none;
         margin: 0;
@@ -39,7 +37,7 @@ const Content = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 35px 0 20px 35px;
+    margin: 0 30px;
 `
 
 const Layout = (props) => {

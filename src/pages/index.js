@@ -6,7 +6,7 @@ import Layout from '../components/layout'
 const P = styled.p`
     font-size: 3rem;
     font-weight: 900;
-    padding: 10px;
+    padding: 10px 0;
 `
 
 const IndexPage = () => {
