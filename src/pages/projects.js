@@ -25,8 +25,8 @@ const ProjectsPage = () => {
         <Layout>
             <Title>Projects</Title>
             <List>
-                <Project>💱 Currency Converter</Project>
-                <Project>💸 EmployeesWise</Project>
+                <Project><span role="img" aria-label="Currency Exchange">💱</span> Currency Converter</Project>
+                <Project><span role="img" aria-label="Money With Wings">💸</span> EmployeesWise</Project>
             </List>
         </Layout>
     )
