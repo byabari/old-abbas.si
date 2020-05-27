@@ -1,11 +1,13 @@
-import React from 'react'
-import { Link, graphql, useStaticQuery } from 'gatsby'
+import React from "react"
+import PropTypes from "prop-types"
+import { Link } from "gatsby"
 import styled from 'styled-components'
 
 const Nav = styled.div`
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    padding: 2px 0;
 `
 
 const Container = styled.div`
@@ -14,12 +16,12 @@ const Container = styled.div`
 `
 
 const StyledLink = styled(Link)`
-    font-size: 1.5rem;
+    color: white;
+    font-size: 1.7rem;
     font-weight: 700;
     padding: 22px;
-    margin: 10px;
+    margin: 5px;
     text-decoration: none;
-    color: white;
     border-radius: 35px;
     &:hover{
         background-color: #1636c7;
@@ -30,31 +32,29 @@ const StyledLink = styled(Link)`
 `
 
 const HomeLink = styled(StyledLink)`
-    font-size: 1.75rem;
+    font-size: 1.9rem;
 `
 
-const Header = () => {
-    const data = useStaticQuery(graphql`
-        query {
-            site {
-                siteMetadata {
-                title
-            }
-            }
-        }
-    `)
+const Header = ({ siteTitle }) => (
+  <header>
+    <Nav>
+        <Container>
+            <HomeLink to='/'>{siteTitle}</HomeLink>
+        </Container>
+        <Container>
+            <StyledLink to='/projects'>Projects</StyledLink>
+            <StyledLink to='/about'>About</StyledLink>
+        </Container>
+    </Nav>
+  </header>
+)
 
-    return (
-            <Nav>
-                <Container>
-                    <HomeLink to='/'>{data.site.siteMetadata.title}</HomeLink>
-                </Container>
-                <Container>
-                    <StyledLink to='/projects'>Projects</StyledLink>
-                    <StyledLink to='/about'>About</StyledLink>
-                </Container>
-            </Nav>
-    )
+Header.propTypes = {
+  siteTitle: PropTypes.string,
+}
+
+Header.defaultProps = {
+  siteTitle: ``,
 }
 
 export default Header

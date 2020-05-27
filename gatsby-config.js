@@ -1,20 +1,41 @@
 module.exports = {
   siteMetadata: {
-      title: `Bari Abbassi`,
-      author: `Bari Abbassi`,
-      email: `bari@abbas.si`,
+    title: `Bari Abbassi`,
+    description: `Hi, my name is Bari. I'm a Produvt-Minded Software-Engineer.`,
+    author: `@bariabbassi`,
   },
   plugins: [
+    `gatsby-plugin-styled-components`,
+    `gatsby-plugin-react-helmet`,
     {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `${__dirname}/src/images`,
+      },
+    },
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `gatsby-starter-default`,
+        short_name: `starter`,
+        start_url: `/`,
+        background_color: `#663399`,
+        theme_color: `#663399`,
+        display: `minimal-ui`,
+        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-          {
-            family: `Roboto`,
-            variants: [`700`, `900`],
-          },
+          `roboto\:700,900`,
         ],
+        display: 'swap',
       },
-    }
-  ]
+    },
+  ],
 }
