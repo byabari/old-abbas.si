@@ -1,5 +1,4 @@
 import React from "react"
-import { A } from "../styles/a"
 import styled from 'styled-components'
 
 const Container = styled.div`
@@ -18,10 +17,10 @@ const Footer = () => (
   <footer>
     <Container>
         <List>
-            <A href='https://github.com/bariabbassi' target="_blank">Github</A>
-            <A href='https://linkedin.com/in/bariabbassi' target="_blank">LinkedIn</A>
-            <A href='https://twitter.com/bariabbassi' target="_blank">Twitter</A>
-            <A href='https://instagram.com/bariabbassi' target="_blank">Instagram</A>
+            <a href='https://github.com/bariabbassi' target="_blank" rel="noreferrer">Github</a>
+            <a href='https://linkedin.com/in/bariabbassi' target="_blank" rel="noreferrer">LinkedIn</a>
+            <a href='https://twitter.com/bariabbassi' target="_blank" rel="noreferrer">Twitter</a>
+            <a href='https://instagram.com/bariabbassi' target="_blank" rel="noreferrer">Instagram</a>
         </List>
     </Container>
   </footer>

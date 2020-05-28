@@ -1,32 +1,30 @@
 import React from "react"
-import { H1 } from "../styles/h1"
-import { P } from "../styles/p"
-import { A } from "../styles/a"
+import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 const AboutPage = () => (
-    <>
+    <Layout>
         <SEO title="About" />
-        <H1>About</H1>
-        <P>
+        <h1>About</h1>
+        <p>
             My name is Bari Abbassi. I'm a Product-Minded Software Engineer.
-        </P>
-        <P>
+        </p>
+        <p>
             I was born in Amsterdam, grew up in Tangier, and studied Computer Science in Paris.
-        </P>
-        <P>
+        </p>
+        <p>
             I enjoy building stuff using Software. Python, Go, and React are among my favorite tools.
-        </P>
-        <P>
+        </p>
+        <p>
             You can also find me taking pictures of friends or random interesting things. For a sneak peek, check out my Instagram.
-        </P>
-        <P>
+        </p>
+        <p>
             Cycling is both my favorite transportation method and physical activity. I used to do a lot of races a few years back.
-        </P>
-        <P>
-            Feel free to drop me an email at:<A href="mailto:bari@abbas.si">bari@abbas.si</A>
-        </P>
-    </>
+        </p>
+        <p>
+            Feel free to drop me an email at:<a href="mailto:bari@abbas.si">bari@abbas.si</a>
+        </p>
+    </Layout>
 )
 
 export default AboutPage

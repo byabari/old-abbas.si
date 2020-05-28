@@ -6,7 +6,7 @@ import Footer from "./footer"
 import styled from "styled-components"
 
 const Container = styled.div`
-  height: 100vh;
+  height: 98vh;
   max-width: 850px;
   width: 95vw;
   
