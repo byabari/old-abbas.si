@@ -47,7 +47,7 @@ export const GlobalStyle = createGlobalStyle`
   body {
     line-height: ${({ theme }) => theme.lineHeight.body};
     letter-spacing: 0;
-    background-color: ${({ theme }) => theme.colors.blue};
+    background-color: #011fa4;
     display: flex;
     justify-content: center;
   }
