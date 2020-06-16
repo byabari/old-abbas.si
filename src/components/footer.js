@@ -6,6 +6,7 @@ const Container = styled.div`
     justify-content: flex-end;
     lex-wrap: wrap;
     padding: 2px 0;
+    margin-top: 35px;
 `
 
 const List = styled.div`

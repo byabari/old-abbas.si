@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Bari Abbassi`,
-    description: `Hi, my name is Bari. I'm a Product-Minded Software-Engineer.`,
+    description: `Hi, my name is Bari Abbassi. I'm a Product-Minded Software Engineer.`,
     author: `@bariabbassi`,
   },
   plugins: [
@@ -32,7 +32,7 @@ module.exports = {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-          `roboto\:700,900`,
+          `roboto\:900,700,500`,
         ],
         display: 'swap',
       },

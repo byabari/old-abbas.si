@@ -12,7 +12,7 @@ const List = styled.div`
 
 const ProjectsPage = () => (
   <Layout>
-    <SEO title="Projects" />
+    <SEO title="Projects" keywords={[`software`, `engineer`, `junior`, `developer`, `amsterdam`]} />
     <h1>Projects</h1>
     <List>
         <a href='https://github.com/bariabbassi/currency-converter' target="_blank" rel="noreferrer">
