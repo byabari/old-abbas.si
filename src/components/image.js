@@ -5,7 +5,8 @@ import styled from "styled-components"
 
 const StyledImg = styled(Img)`
   display: block;
-  width: 55%;
+  width: 490px;
+  max-width: 100%;
   height: auto;
   margin: 5px 0 10px 40px;
   float: right;

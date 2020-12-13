@@ -43,6 +43,7 @@ const Header = ({ siteTitle }) => (
         </Container>
         <Container>
             <StyledLink to='/projects'>Projects</StyledLink>
+            <a href='resume.pdf' target="_blank" rel="noreferrer">Resume</a>
             <StyledLink to='/about'>About</StyledLink>
         </Container>
     </Nav>

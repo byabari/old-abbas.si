@@ -4,7 +4,7 @@ import styled from 'styled-components'
 const Container = styled.div`
     display: flex;
     justify-content: flex-end;
-    lex-wrap: wrap;
+    flex-wrap: wrap;
     padding: 2px 0;
     margin-top: 35px;
 `
