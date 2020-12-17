@@ -15,7 +15,7 @@ const AboutPage = () => (
             I was born in Amsterdam, grew up in Tangier, and studied Computer Science in Paris.
         </p>
         <p>
-            I enjoy building stuff using code. Python, Go, React, and Node.js are among my favorite tools.
+            I enjoy building stuff using code. React, Next.js, and Firebase are among my favorite tools.
         </p>
         
         <p>
