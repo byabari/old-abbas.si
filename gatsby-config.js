@@ -15,10 +15,7 @@ module.exports = {
       },
     },
     `gatsby-transformer-sharp`,
-    {
-      resolve: "gatsby-plugin-sharp",
-      options: { failOnError: false },
-    },
+    `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -34,8 +31,10 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
-        fonts: [`roboto\:900,700,500`],
-        display: "swap",
+        fonts: [
+          `roboto\:900,700,500`,
+        ],
+        display: 'swap',
       },
     },
   ],
