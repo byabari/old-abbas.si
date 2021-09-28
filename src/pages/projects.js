@@ -84,16 +84,6 @@ const ProjectsPage = () => (
         </span>{" "}
         Best Sort
       </a>
-      <a
-        href="https://github.com/bariabbassi/pokemon-data"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <span role="img" aria-label="Cat Face">
-          🐱
-        </span>{" "}
-        Pokemon Data
-      </a>
     </List>
   </Layout>
 )
