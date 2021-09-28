@@ -21,8 +21,8 @@ const ProjectsPage = () => (
       <a href="https://linkfolders.com" target="_blank" rel="noreferrer">
         <span role="img" aria-label="Linkfolders">
           📂
-        </span>{" "}
-        Linkfolders
+        </span>
+        &nbsp; Linkfolders
       </a>
       <a
         href="https://github.com/bariabbassi/currency-converter"
@@ -31,8 +31,8 @@ const ProjectsPage = () => (
       >
         <span role="img" aria-label="Currency Exchange">
           💱
-        </span>{" "}
-        Currency Converter
+        </span>
+        &nbsp; Currency Converter
       </a>
       <a
         href="https://github.com/bariabbassi/alien-invasion"
@@ -41,8 +41,8 @@ const ProjectsPage = () => (
       >
         <span role="img" aria-label="Alien">
           👽
-        </span>{" "}
-        Alien Invasion
+        </span>
+        &nbsp; Alien Invasion
       </a>
       <a
         href="https://github.com/bariabbassi/rolling-hash"
@@ -51,8 +51,8 @@ const ProjectsPage = () => (
       >
         <span role="img" aria-label="Recycling">
           ♻️
-        </span>{" "}
-        Rolling Hash
+        </span>
+        &nbsp; Rolling Hash
       </a>
       <a
         href="https://github.com/bariabbassi/tcp-chat"
@@ -61,8 +61,8 @@ const ProjectsPage = () => (
       >
         <span role="img" aria-label="Speech Balloon">
           💬
-        </span>{" "}
-        TCP Chat
+        </span>
+        &nbsp; TCP Chat
       </a>
       <a
         href="https://github.com/bariabbassi/employees-wise"
@@ -71,8 +71,8 @@ const ProjectsPage = () => (
       >
         <span role="img" aria-label="Money With Wings">
           💸
-        </span>{" "}
-        EmployeesWise
+        </span>
+        &nbsp; EmployeesWise
       </a>
       <a
         href="https://github.com/bariabbassi/best-sort"
@@ -81,8 +81,8 @@ const ProjectsPage = () => (
       >
         <span role="img" aria-label="Shuffle Tracks">
           🔀
-        </span>{" "}
-        Best Sort
+        </span>
+        &nbsp; Best Sort
       </a>
     </List>
   </Layout>
