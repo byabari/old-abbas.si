@@ -21,7 +21,7 @@ const ProjectsPage = () => (
       <a href="https://linkfolders.com" target="_blank" rel="noreferrer">
         <span role="img" aria-label="Linkfolders">
           📂
-        </span>
+        </span>{" "}
         Linkfolders
       </a>
       <a
@@ -31,7 +31,7 @@ const ProjectsPage = () => (
       >
         <span role="img" aria-label="Currency Exchange">
           💱
-        </span>
+        </span>{" "}
         Currency Converter
       </a>
       <a
@@ -41,7 +41,7 @@ const ProjectsPage = () => (
       >
         <span role="img" aria-label="Alien">
           👽
-        </span>
+        </span>{" "}
         Alien Invasion
       </a>
       <a
@@ -51,7 +51,7 @@ const ProjectsPage = () => (
       >
         <span role="img" aria-label="Recycling">
           ♻️
-        </span>
+        </span>{" "}
         Rolling Hash
       </a>
       <a
@@ -61,7 +61,7 @@ const ProjectsPage = () => (
       >
         <span role="img" aria-label="Speech Balloon">
           💬
-        </span>
+        </span>{" "}
         TCP Chat
       </a>
       <a
@@ -71,7 +71,7 @@ const ProjectsPage = () => (
       >
         <span role="img" aria-label="Money With Wings">
           💸
-        </span>
+        </span>{" "}
         EmployeesWise
       </a>
       <a
@@ -81,7 +81,7 @@ const ProjectsPage = () => (
       >
         <span role="img" aria-label="Shuffle Tracks">
           🔀
-        </span>
+        </span>{" "}
         Best Sort
       </a>
       <a
@@ -91,7 +91,7 @@ const ProjectsPage = () => (
       >
         <span role="img" aria-label="Cat Face">
           🐱
-        </span>
+        </span>{" "}
         Pokemon Data
       </a>
     </List>
